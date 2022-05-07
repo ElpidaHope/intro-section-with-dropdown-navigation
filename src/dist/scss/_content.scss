@@ -1,0 +1,46 @@
+@use './colors';
+
+main {
+  .hero-container {
+    img {
+      width: 100%;
+    }
+  }
+
+  #desktop {
+    display: none;
+  }
+
+  .main-content {
+    text-align: center;
+
+    h1 {
+      padding: 50px 0 30px;
+    }
+    p {
+      color: colors.$Almost-Gray;
+      padding: 0 20px;
+      line-height: 1.5;
+      padding-bottom: 30px;
+    }
+
+    button {
+      background-color: colors.$Almost-Black;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-family: inherit;
+      font-weight: 500;
+    }
+
+    .img-container {
+      padding: 50px 20px 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        width: 60px;
+      }
+    }
+  }
+}

@@ -4,7 +4,6 @@
 @include screen-size.desktop-screen {
   body {
     height: 100vh;
-    // overflow-y: hidden;
   }
   header {
     justify-content: flex-start;
@@ -117,7 +116,6 @@
     }
 
     .main-content {
-      // max-width: 600px;
       text-align: left;
       h1 {
         font-size: 5rem;

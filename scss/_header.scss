@@ -42,7 +42,7 @@ header {
         >p {
           position: relative;
           &::after {
-            content: url('../../assets/images/icon-arrow-up.svg');
+            content: url('../assets/images/icon-arrow-up.svg');
             position: absolute;
             right: 55%;
             bottom: 2px;
@@ -50,7 +50,7 @@ header {
 
           &.drop {
             &::after {
-              content: url('../../assets/images/icon-arrow-down.svg');
+              content: url('../assets/images/icon-arrow-down.svg');
               
             }
           }
